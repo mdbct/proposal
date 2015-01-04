@@ -1,0 +1,44 @@
+\ProvidesPackage{MyProposal}
+
+% Page margins
+\usepackage[left=1.5in,right=1.25in,top=1in,bottom=1in]{geometry}
+
+% Input encoding
+\usepackage[utf8]{inputenc}
+
+% Language
+%\usepackage[english]{babel}
+
+% Graphics
+\usepackage{graphicx}
+
+% Fonts
+\usepackage{fontspec}
+\setmainfont{Liberation Serif}
+
+% Fancy header
+\usepackage{fancyhdr}
+
+% Line spacing
+\usepackage[singlespacing]{setspace}
+
+% Paragraph skip
+\usepackage{parskip}
+
+% Rename `Table of Contents` header text
+\renewcommand{\contentsname}{Table of Contents}
+
+% Hyperref
+\usepackage{hyperref}
+\hypersetup{
+    bookmarks=true,
+    unicode=true,
+    pdftitle={Project Proposal on Photocrypt},
+    pdfauthor={Manish Munikar},
+    colorlinks=true,
+    linkcolor=blue,
+    linktoc=all
+}
+
+% Underline
+\usepackage[normalem]{ulem}
